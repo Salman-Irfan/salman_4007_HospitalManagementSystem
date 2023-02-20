@@ -1,13 +1,37 @@
-
-.blink{
-    animation:blinking 1.5s infinite !important;
+.blink {
+    animation: blinking 1.5s infinite !important;
     font-size: 20px !important;
+}
+
+@keyframes blinking {
+    0% {
+        color: greenyellow;
     }
 
-@keyframes blinking{
-    0%{   color: greenyellow;   }
-    47%{   color: orangered; }
-    62%{   color: yellow; }
-    97%{   color:orangered; }
-    100%{  color: goldenrod;   }
+    47% {
+        color: orangered;
     }
+
+    62% {
+        color: yellow;
+    }
+
+    97% {
+        color: orangered;
+    }
+
+    100% {
+        color: goldenrod;
+    }
+}
+
+.yellow-hover {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.yellow-hover:hover {
+    text-decoration: underline !important;
+    color: #6c757d !important;
+    transition: all 0.1s ease-in-out !important;
+}
