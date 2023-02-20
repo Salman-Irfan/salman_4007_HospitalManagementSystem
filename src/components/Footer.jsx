@@ -50,19 +50,19 @@ const Footer = () => {
                                     <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#7c4dff', height: 2 }} />
 
                                     <p>
-                                        <a href="#!" className="text-white text-decoration-none yellow-hover">
+                                        <a href="#!" className="text-white text-decoration-none blue-hover">
                                             Blood Pressure Clinic
                                         </a>
                                     </p>
-                                    
+
                                     <p>
-                                        <a href="#!" className="text-white text-decoration-none yellow-hover">
+                                        <a href="#!" className="text-white text-decoration-none blue-hover">
                                             Diabetes/ Sugar Clinic
                                         </a>
                                     </p>
 
                                     <p>
-                                        <a href="#!" className="text-white text-decoration-none yellow-hover">
+                                        <a href="#!" className="text-white text-decoration-none blue-hover">
                                             Psychiatry Clinic ( see a UK psychiatrist on line )
                                         </a>
                                     </p>
@@ -75,16 +75,16 @@ const Footer = () => {
                                     <h6 className="text-uppercase fw-bold">Useful links</h6>
                                     <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#7c4dff', height: 2 }} />
                                     <p>
-                                        <a href="#!" className="text-white">Your Account</a>
+                                        <a href="#!" className="text-white text-decoration-none blue-hover">Doctors</a>
                                     </p>
                                     <p>
-                                        <a href="#!" className="text-white">Become an Affiliate</a>
+                                        <a href="#!" className="text-white text-decoration-none blue-hover">About</a>
                                     </p>
                                     <p>
-                                        <a href="#!" className="text-white">Shipping Rates</a>
+                                        <a href="#!" className="text-white text-decoration-none blue-hover">Contact Us</a>
                                     </p>
                                     <p>
-                                        <a href="#!" className="text-white">Help</a>
+                                        <a href="#!" className="text-white text-decoration-none blue-hover">Make an Appointment</a>
                                     </p>
                                 </div>
                                 {/* Grid column */}
@@ -93,29 +93,19 @@ const Footer = () => {
                                     {/* Links */}
                                     <h6 className="text-uppercase fw-bold">Contact</h6>
                                     <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#7c4dff', height: 2 }} />
-                                    <p><i className="fas fa-home mr-3" /> New York, NY 10012, US</p>
-                                    <p><i className="fas fa-envelope mr-3" /> info@example.com</p>
-                                    <p><i className="fas fa-phone mr-3" /> + 01 234 567 88</p>
-                                    <p><i className="fas fa-print mr-3" /> + 01 234 567 89</p>
+                                    <a href="#!" className="text-white text-decoration-none blue-hover"><p><i className="fas fa-home mr-3" /> Mandi Town Bhakkar</p></a>
+                                    <a href="#!" className="text-white text-decoration-none blue-hover"><p><i className="fas fa-envelope mr-3" /> info@iatelehealth.com</p></a>
+                                    <a href="#!" className="text-white text-decoration-none blue-hover"><p><i className="fas fa-phone mr-3" /> +92 334 0808 849</p></a>
                                 </div>
-                                {/* Grid column */}
                             </div>
-                            {/* Grid row */}
                         </div>
                     </section>
-                    {/* Section: Links  */}
-                    {/* Copyright */}
                     <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
                         © 2020 Copyright:
-                        <a className="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                        <a className="text-white" href="https://mdbootstrap.com/"> iatelehealth.com</a>
                     </div>
-                    {/* Copyright */}
                 </footer>
-                {/* Footer */}
             </div>
-            {/* End of .container */}
-
-
         </>
     )
 }

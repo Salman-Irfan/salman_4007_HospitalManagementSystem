@@ -1,10 +1,10 @@
-import React from 'react'
-import logo from '../assets/images/logo.png'
-
+import React from 'react';
+import logo from '../assets/images/logo.png';
+import '../App.css';
 
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-success text-white">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-green">
       <div className="container-fluid">
         <a className="navbar-brand ml-8" href="/">
           <img src={logo} alt="" width="30" height="24" class="d-inline-block align-text-top" />
@@ -14,24 +14,28 @@ const Nav = () => {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mx-auto mx-2 mb-lg-0 ">
-            <li className="nav-item h5">
-              <a className="nav-link text-white" aria-current="page" href="#">Home</a>
+          <ul className="navbar-nav mx-auto mx-2 mb-lg-0">
+            <li className="nav-item h5 pe-4 ">
+              <a className="nav-link text-white fs-4 " aria-current="page" href="#">Home</a>
             </li>
-            <li className="nav-item h5">
-              <a className="nav-link text-white" href="#">Doctors</a>
+            <li className="nav-item h5 pe-4">
+              <a className="nav-link text-white fs-4 " href="#">Doctors</a>
             </li>
-            <li className="nav-item h5">
-              <a className="nav-link text-white" href="#">Contact Us</a>
+            <li className="nav-item h5 pe-4">
+              <a className="nav-link text-white fs-4 " href="#">Contact Us</a>
             </li>
-            <li className="nav-item h5">
-              <a className="nav-link text-white" href="#">About Us</a>
+            <li className="nav-item h5 pe-4">
+              <a className="nav-link text-white fs-4 " href="#">About Us</a>
             </li>
+
             <li className="nav-item h5 ms-5  bg-white rounded">
               <a className="nav-link blink" href="#">Make an Appointment</a>
             </li>
-            <li className="nav-item h5 ms-5 bg-primary">
-              <a className="nav-link text-white" href="#">Login</a>
+            <li className="nav-item h5 ms-5 ">
+              <a className="nav-link text-white bg-primary  btn btn-primary rounded-pill py-1 px-7" href="#">
+                <i className="bi bi-fingerprint me-2"></i>
+                Login
+              </a>
             </li>
           </ul>
         </div>
@@ -39,4 +43,4 @@ const Nav = () => {
     </nav>
   )
 }
-export default Nav
+export default Nav;
