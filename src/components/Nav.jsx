@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/images/logo.png';
 import '../App.css';
+import '../css/nav.css'
 
 const Nav = () => {
   return (

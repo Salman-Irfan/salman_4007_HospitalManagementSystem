@@ -13,6 +13,8 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 import "../css/swiperEffectOverflow.css";
+import "../css/home.css";
+
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
@@ -37,7 +39,7 @@ const Home = () => {
                     modules={[EffectCoverflow, Pagination]}
                     className="mySwiper"
                 >
-                    <SwiperSlide>
+                    <SwiperSlide className='hiding'>
                         <div className="card bg-dark text-success mb-4">
                             <img className="card-img background-image" src={logo} alt="Card image" />
                             <div className="card-img-overlay overlay text-center d-flex flex-column justify-content-center">
@@ -62,7 +64,7 @@ const Home = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='hiding'>
                         <div className="row featurette">
                             <div className="col-md-5 order-md-1">
                                 <img src={ibrahim} className="img-fluid mb-3" />
@@ -89,7 +91,7 @@ const Home = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className='hiding'>
                         <div className="row featurette">
                             <div className="col-md-5 order-md-1">
                                 <img src={ahmad} className="img-fluid mb-3" />
