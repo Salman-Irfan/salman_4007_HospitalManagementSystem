@@ -101,17 +101,17 @@ const Home = () => {
                                 <ul className="list-unstyled mb-4">
                                     <li>
                                         <p className="lead mb-1">
-                                            Virtual care for your health needs
+                                            Evidence-based treatment 
                                         </p>
                                     </li>
                                     <li>
                                         <p className="lead mb-1">
-                                            Expert medical advice at your fingertips
+                                            Personalized treatment plans
                                         </p>
                                     </li>
                                     <li>
                                         <p className="lead mb-1">
-                                            Stay healthy with our online services
+                                            Compassionate and respectful care from our experienced team
                                         </p>
                                     </li>
                                 </ul>

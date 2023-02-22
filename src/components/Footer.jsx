@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css'
+import { Link } from 'react-router-dom'
 import '../css/footer.css'
 
 const Footer = () => {
@@ -12,21 +12,21 @@ const Footer = () => {
                             <span>Get connected with us on social networks:</span>
                         </div>
                         <div>
-                            <a href="#" className="text-white me-4 ">
+                            <Link href="#" className="text-white me-4 ">
                                 <i className="fab fa-facebook-f " />
-                            </a>
-                            <a href="#" className="text-white me-4">
+                            </Link>
+                            <Link href="#" className="text-white me-4">
                                 <i className="fab fa-twitter" />
-                            </a>
-                            <a href="#" className="text-white me-4">
+                            </Link>
+                            <Link href="#" className="text-white me-4">
                                 <i className="fab fa-google" />
-                            </a>
-                            <a href="#" className="text-white me-4">
+                            </Link>
+                            <Link href="#" className="text-white me-4">
                                 <i className="fab fa-instagram" />
-                            </a>
-                            <a href="#" className="text-white me-4">
+                            </Link>
+                            <Link href="#" className="text-white me-4">
                                 <i className="fab fa-linkedin" />
-                            </a>
+                            </Link>
                         </div>
                     </section>
                     <section className>
@@ -51,21 +51,21 @@ const Footer = () => {
                                     <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#7c4dff', height: 2 }} />
 
                                     <p>
-                                        <a href="#!" className="text-white text-decoration-none blue-hover">
+                                        <Link href="#!" className="text-white text-decoration-none blue-hover">
                                             Blood Pressure Clinic
-                                        </a>
+                                        </Link>
                                     </p>
 
                                     <p>
-                                        <a href="#!" className="text-white text-decoration-none blue-hover">
+                                        <Link href="#!" className="text-white text-decoration-none blue-hover">
                                             Diabetes/ Sugar Clinic
-                                        </a>
+                                        </Link>
                                     </p>
 
                                     <p>
-                                        <a href="#!" className="text-white text-decoration-none blue-hover">
+                                        <Link href="#!" className="text-white text-decoration-none blue-hover">
                                             Psychiatry Clinic ( see a UK psychiatrist on line )
-                                        </a>
+                                        </Link>
                                     </p>
 
                                 </div>
@@ -76,16 +76,16 @@ const Footer = () => {
                                     <h6 className="text-uppercase fw-bold">Useful links</h6>
                                     <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#7c4dff', height: 2 }} />
                                     <p>
-                                        <a href="#!" className="text-white text-decoration-none blue-hover">Doctors</a>
+                                        <Link href="#!" className="text-white text-decoration-none blue-hover">Doctors</Link>
                                     </p>
                                     <p>
-                                        <a href="#!" className="text-white text-decoration-none blue-hover">About</a>
+                                        <Link href="#!" className="text-white text-decoration-none blue-hover">About</Link>
                                     </p>
                                     <p>
-                                        <a href="#!" className="text-white text-decoration-none blue-hover">Contact Us</a>
+                                        <Link href="#!" className="text-white text-decoration-none blue-hover">Contact Us</Link>
                                     </p>
                                     <p>
-                                        <a href="#!" className="text-white text-decoration-none blue-hover">Make an Appointment</a>
+                                        <Link href="#!" className="text-white text-decoration-none blue-hover">Make an Appointment</Link>
                                     </p>
                                 </div>
                                 {/* Grid column */}
@@ -94,16 +94,16 @@ const Footer = () => {
                                     {/* Links */}
                                     <h6 className="text-uppercase fw-bold">Contact</h6>
                                     <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#7c4dff', height: 2 }} />
-                                    <a href="#!" className="text-white text-decoration-none blue-hover"><p><i className="fas fa-home mr-3" /> Mandi Town Bhakkar</p></a>
-                                    <a href="#!" className="text-white text-decoration-none blue-hover"><p><i className="fas fa-envelope mr-3" /> info@iatelehealth.com</p></a>
-                                    <a href="#!" className="text-white text-decoration-none blue-hover"><p><i className="fas fa-phone mr-3" /> +92 334 0808 849</p></a>
+                                    <Link href="#!" className="text-white text-decoration-none blue-hover"><p><i className="fas fa-home mr-3" /> Mandi Town Bhakkar</p></Link>
+                                    <Link href="#!" className="text-white text-decoration-none blue-hover"><p><i className="fas fa-envelope mr-3" /> info@iatelehealth.com</p></Link>
+                                    <Link href="#!" className="text-white text-decoration-none blue-hover"><p><i className="fas fa-phone mr-3" /> +92 334 0808 849</p></Link>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
                         © 2020 Copyright:
-                        <a className="text-white" href="https://mdbootstrap.com/"> iatelehealth.com</a>
+                        <Link className="text-white" href="https://mdbootstrap.com/"> iatelehealth.com</Link>
                     </div>
                 </footer>
             </div>
